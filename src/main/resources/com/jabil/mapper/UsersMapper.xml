@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jabil.mapper.UsersMapper" >
+  <resultMap id="BaseResultMap" type="com.jabil.pojo.Users" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="User_id" property="userId" jdbcType="INTEGER" />
+    <result column="id" property="id" jdbcType="INTEGER" />
+    <result column="Group_id" property="groupId" jdbcType="INTEGER" />
+    <result column="Role_id" property="roleId" jdbcType="INTEGER" />
+    <result column="Depart_id" property="departId" jdbcType="INTEGER" />
+    <result column="NTid" property="ntid" jdbcType="VARCHAR" />
+    <result column="Display" property="display" jdbcType="VARCHAR" />
+    <result column="Alias" property="alias" jdbcType="VARCHAR" />
+    <result column="MailAddress" property="mailaddress" jdbcType="VARCHAR" />
+    <result column="Active" property="active" jdbcType="BIT" />
+    <result column="Add_time" property="addTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+</mapper>

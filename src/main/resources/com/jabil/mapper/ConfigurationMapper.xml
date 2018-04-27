@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jabil.mapper.ConfigurationMapper" >
+  <resultMap id="BaseResultMap" type="com.jabil.pojo.Configuration" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="Config_id" property="configId" jdbcType="INTEGER" />
+    <result column="id" property="id" jdbcType="INTEGER" />
+    <result column="Config_name" property="configName" jdbcType="VARCHAR" />
+    <result column="Config_Value" property="configValue" jdbcType="VARCHAR" />
+    <result column="Addtime" property="addtime" jdbcType="TIMESTAMP" />
+  </resultMap>
+</mapper>

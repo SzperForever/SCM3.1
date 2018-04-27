@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jabil.mapper.UsergroupsMapper" >
+  <resultMap id="BaseResultMap" type="com.jabil.pojo.Usergroups" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="Group_id" property="groupId" jdbcType="INTEGER" />
+    <result column="id" property="id" jdbcType="INTEGER" />
+    <result column="Group_Name" property="groupName" jdbcType="VARCHAR" />
+    <result column="Details" property="details" jdbcType="NCHAR" />
+    <result column="LockSetting" property="locksetting" jdbcType="BIT" />
+    <result column="Report_to_id" property="reportToId" jdbcType="INTEGER" />
+    <result column="Addtime" property="addtime" jdbcType="TIMESTAMP" />
+  </resultMap>
+</mapper>

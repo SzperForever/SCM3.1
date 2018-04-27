@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jabil.mapper.ActivitylogMapper" >
+  <resultMap id="BaseResultMap" type="com.jabil.pojo.Activitylog" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="Log_id" property="logId" jdbcType="BIGINT" />
+    <result column="id" property="id" jdbcType="BIGINT" />
+    <result column="Log_Name" property="logName" jdbcType="VARCHAR" />
+    <result column="Log_Userid" property="logUserid" jdbcType="INTEGER" />
+    <result column="Log_time" property="logTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+</mapper>
